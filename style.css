@@ -1,2 +1,37 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+
+.container{
+    padding: 20px;
+}
+
+.list{
+    display: flex;
+    gap: 80px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(191, 188, 188);
+    font-size: 17px;
+}
+
+.button-group{
+    float: right;
+}
+
+.nav-button{
+    float: right;
+}
+
+
+li:first-child{
+    color: black;
+}
+
+img{
+    /* display: flex; */
+}
+
+.navbar-container{
+    display: flex;
+    gap: 10px;
+}
