@@ -35,3 +35,15 @@ img{
     display: flex;
     gap: 10px;
 }
+
+.button-group{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+.nav-button{
+    float: right;
+    justify-content: flex-end;
+
+}
