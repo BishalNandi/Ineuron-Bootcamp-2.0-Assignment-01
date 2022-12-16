@@ -2,24 +2,16 @@
 /* You can only modify the CSS file */
 
 .container{
-    padding: 20px;
+    padding: 30px;
 }
 
 .list{
     display: flex;
-    gap: 80px;
+    gap: 28px;
     text-decoration: none;
     list-style-type: none;
     color: rgb(191, 188, 188);
     font-size: 17px;
-}
-
-.button-group{
-    float: right;
-}
-
-.nav-button{
-    float: right;
 }
 
 
@@ -27,23 +19,56 @@ li:first-child{
     color: black;
 }
 
-img{
-    /* display: flex; */
-}
 
 .navbar-container{
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 
 .button-group{
-    display: flex;
-    justify-content: flex-end;
-    float: right;
+
+    margin-left: 600px;
+    margin-top: 10px;
+
 }
 
 .nav-button{
-    float: right;
-    justify-content: flex-end;
+
+    background-color: rgb(112, 112, 248);
+    color: #ffff;
+    padding: 12px;
+    width: 110px;
+    margin-bottom: 35px;
+    border-radius: 10px;
 
 }
+
+.banner{
+    display: flex;
+}
+
+.banner-container{
+    display: flex;
+}
+
+.heading-text{
+
+    margin-top: 130px;
+    font-size: 70px;
+}
+
+span{
+    color: rgb(112, 112, 248);
+}
+
+.description{
+    font-size: 25px;
+}
+
+.btn{
+    width: 170px;
+    padding: 15px;
+    margin-left: 10px;
+   
+}
+
